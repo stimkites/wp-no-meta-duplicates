@@ -1,0 +1,41 @@
+<tab>
+  <h3>Wetail No Duplicates</h3>
+  <p>
+    The plugin is meant to help in cleaning DB from any meta duplicates, such as:
+  </p>
+  <ul>
+    <li>User meta</li>
+    <li>Post meta</li>
+    <li>Term meta</li>
+    <li>Order item meta</li>
+    <li>Payment token meta</li>
+    <li>Comment meta</li>
+  </ul>
+  <p>
+    Before you launch any cleaning operation it is strongly advised to make a DB backup though all operations are
+    totally fail-safe to run, because force-major cannot be predicted (as unexpected server shutdown).
+  </p>
+</tab>
+<tab>
+  <h3>Tables</h3>
+  <p>In the list of tables it is recommended to clean only those which have more than 100 duplicates to not to run extra queries</p>
+  <p>First - check the number of duplicates for all tables or for those which are suspected to have ones.</p>
+</tab>
+<tab>
+  <h3>Triggers</h3>
+  <p>
+    Triggers will prevent further occurrences of duplicates in selected tables. Absolutely safe to call.
+  </p>
+  <p>
+    Keep in mind that it is useful to check DB for duplicates from time to time anyways.
+  </p>
+</tab>
+<tab>
+  <h3>About</h3>
+  <p>
+    This plugin is free of charge to use with GPL V2 license.
+  </p>
+  <p>
+    © + ® 2018, Wetail AB, <a href="https://wetail.se" target="_blank">https://wetail.se</a>
+  </p>
+</tab>

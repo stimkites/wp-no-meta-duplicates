@@ -1,0 +1,74 @@
+.hid{
+	display: none
+}
+
+.vis{
+	display: inline-block;
+	visibility: visible;
+}
+
+.w-nodups-wrap .listing th{
+	text-align: center;
+	padding: 10px 0;
+}
+
+.w-nodups-wrap .listing td span.spinner{
+	background-size: 16px 16px;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+
+.w-nodups-wrap .listing th input,
+.w-nodups-wrap .listing td input{
+	margin: 0;
+}
+
+.w-nodups-wrap .actions{
+	display: block;
+	margin: 20px 10px;
+}
+
+.w-nodups-wrap .hint{
+	font-size: 90%;
+	font-style: italic;
+}
+
+.w-nodups-wrap .spinner{
+	float: none;
+	vertical-align: middle;
+	padding-top: 5px;
+}
+
+.w-nodups-wrap #list-content{
+	text-align: center;
+}
+
+.w-nodups-wrap .trigger-state{
+	width: 20px;
+	height: 20px;
+	border: none;
+	font: 400 20px/20px dashicons;
+	padding: 0;
+	line-height: 1;
+	position: absolute;
+}
+
+.w-nodups-wrap .trigger-state.unknown:before{
+	content: "\f223";
+	color: #ccc;
+}
+
+.w-nodups-wrap .trigger-state.off:before{
+	content: "\f335";
+	color: orangered;
+}
+
+.w-nodups-wrap .trigger-state.on:before{
+	content: "\f147";
+	color: limegreen;
+}
+
+.widefat > tbody > tr:hover{
+	background-color: #EEE;
+}
